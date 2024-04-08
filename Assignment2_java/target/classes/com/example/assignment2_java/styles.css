@@ -1,0 +1,71 @@
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-base: #f0f0f0;
+    -fx-background-image: url('images/images5.jpeg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.table-view {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #bdc3c7;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #ecf0f1;
+}
+
+.text-field {
+    font-size: 14px;
+    -fx-prompt-text-fill: #95a5a6;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(#3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 6px 15px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2980b9, #3498db);
+}
+
+.text-area {
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4px;
+}
+
+.anchor-pane {
+    -fx-background-color: #ecf0f1;
+    -fx-padding: 10px;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 10);
+}
